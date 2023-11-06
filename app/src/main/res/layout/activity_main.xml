@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:layout_margin="10dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_disaster"
-        tools:listitem="@layout/item_disaster"
-        tools:itemCount="4"
+        android:id="@+id/recycle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/list_pahlawan"
+        tools:itemCount="3"/>
 </LinearLayout>

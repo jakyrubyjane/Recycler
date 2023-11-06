@@ -1,34 +1,40 @@
-package com.example.recycler
+package com.example.tugas_recycler_view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recycler.databinding.ItemDisasterBinding
+import com.example.recycler.Pahlawan
+import com.example.recycler.databinding.ListPahlawanBinding
 
-typealias OnClickDisaster = (Disaster) -> Unit
-class DisasterAdapter(private val listDisaster: List<Disaster>, private val
-onClickDisaster: OnClickDisaster) :
-    RecyclerView.Adapter<DisasterAdapter.ItemDisasterViewHolder>() {
-    inner class ItemDisasterViewHolder(private val binding: ItemDisasterBinding) :
+typealias OnClickPahlawan = (Pahlawan) -> Unit
+class DisasterAdapter(private val listPahlawan: List<Pahlawan>, private val onClickDisaster: OnClickPahlawan)  :
+
+    RecyclerView.Adapter<DisasterAdapter.ItemPahlawanViewHolder>() {
+    inner class ItemPahlawanViewHolder(private val binding: ListPahlawanBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(data: Disaster) {
+        fun bind(data: Pahlawan) {
             with(binding) {
-                txtDisasterName.text = data.nameDisaster
-                txtDisasterType.text = data.disasterType
+                name.text = data.namaPahlawan
+                image.setImageResource(data.gambarPahlawan)
+                deskripsi.text = data.deskripsiPahlawan
                 itemView.setOnClickListener {
                     onClickDisaster(data)
                 }
             }
         }
     }
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int):
-            ItemDisasterViewHolder {
-        val binding =
-            ItemDisasterBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return ItemDisasterViewHolder(binding)
+
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        viewType: Int
+    ): ItemPahlawanViewHolder {
+        val binding = ListPahlawanBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return ItemPahlawanViewHolder(binding)
     }
-    override fun getItemCount(): Int = listDisaster.size
-    override fun onBindViewHolder(holder: ItemDisasterViewHolder, position: Int) {
-        holder.bind(listDisaster[position])
+
+    override fun onBindViewHolder(holder: ItemPahlawanViewHolder, position: Int) {
+        holder.bind(listPahlawan[position])
     }
+
+    override fun getItemCount(): Int = listPahlawan.size
 }

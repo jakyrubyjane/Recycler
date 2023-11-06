@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">Recycler</string>
+    <string name="app_name">Tugas_Recycler_View</string>
+    <string name="deskripsi_napoleon">
+       Napoleon Bonaparte adalah anak kedua dari tujuh bersaudara. Ia lahir di Casa Buonaparte, di kota Ajaccio,
+        Korsika, pada tanggal 15 Agustus 1769, satu tahun setelah kepulauan tersebut diserahterimakan Republik Genova
+        kepada Prancis.[6] Ia lahir dengan nama Napoleone di Bounaparte, namun pada usia 20 tahun ia mengubah namanya
+        menjadi Napoléon Bonaparte.[7][note 1] Wangsa Bounaparte adalah keluarga bangsawan yang berasal dari Italia,
+        yang pindah ke Korsika pada abad ke-16/[9] Ayahnya, Nobile Carlo Buonaparte, seorang pengacara, pernah menjadi
+        perwakilan korsika saat Louis XVI berkuasa pada tahun 1777. Ibunya bernama Maria Letizia Bonaparte.
+    </string>
+    <string name="deskripsi_abraham">
+       Abraham Lincoln (12 Februari 1809 – 15 April 1865) adalah Presiden Amerika Serikat ke-16, yang menjabat sejak 4 Maret
+        1861 sampai terjadi pembunuhan terhadap dirinya.[1] Dia memimpin bangsanya keluar dari Perang Saudara Amerika,
+        mempertahankan persatuan bangsa, dan menghapuskan perbudakan. Namun, saat perang telah mendekati akhir, dia menjadi
+        presiden AS pertama yang dibunuh.[2] Sebelum pelantikannya pada tahun 1860 sebagai presiden pertama dari Partai Republik,
+        Lincoln berprofesi sebagai pengacara, anggota legislatif Illinois, anggota DPR Amerika Serikat, dan dua kali gagal dalam
+        pemilihan anggota senat.[3]
+    </string>
+    <string name="deskripsi_tesla">
+        Nikola Tesla (bahasa Serbia: Никола Тесла, 10 Juli 1856 – 7 Januari 1943) adalah seorang pereka cipta, fisikawan, teknisi
+        mekanik, dan teknisi listrik berkebangsaan Serbia-Amerika.[3][4][5][6] Ia terkenal berkat kontribusinya dalam mendesain sistem
+        kelistrikan arus bolak-balik (AC).[7] Lahir pada 10 Juli 1856 di Smiljan, dan dibesarkan di Kekaisaran Austria (sekarang Kroasia),
+        Tesla menyelesaikan pendidikannya dalam bidang teknik dan fisika pada tahun 1870-an di Pendidikan Universitas Teknologi Graz.
+        Ia sempat bekerja di bidang telefoni pada awal 1880-an dan di Continental Edison dalam bidang industri tenaga listrik. Ia pindah ke
+        Amerika Serikat pada 1884 dan menjadi warga negara di sana. Ia sempat bekerja di Edison Machine Works di Kota New York, lalu memutuskan
+        untuk keluar. Dengan bantuan rekannya untuk pembiayaan dan pemasaran ide-idenya, Tesla mendirikan laboratorium di New York untuk mengembangkan
+        berbagai peralatan kayu dan mekanik. Motor induksi dan arus bolak-balik buatannya, dan paten sistem polifasa bolak-baliknya dilisensikan oleh
+        Westinghouse Electric Corporation pada tahun 1888.
+    </string>
 </resources>
